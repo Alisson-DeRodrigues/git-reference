@@ -1,8 +1,10 @@
 # Git e Github:
 Guia de referência de comandos git e configuração de repositório remoto github. Este guia é especialmente útil para quem já possui familiaridade com os tópicos e sabe o que está procurando, mas também pode ser aproveitado como material de estudo para quem está aprendendo.
 
-## Comandos
-- `git --version` - versão atual do git instalado
+## Comandos de Sistema
+- `git --version` - exibe a versão atual do git instalado
+- `git help` - exibe uma lista de comandos mais utilizados no git e sua descrição básica
+- `git help <comando>` - exibe a ajuda para um comando específico do Git
 
 ## Comandos de Configuração
 ### Variáveis de configuração:
@@ -84,6 +86,8 @@ O git não reconhece pastas vazias, então `.gitkeep` é uma convenção, um arq
 
 - `git show` - exibe as informações detalhadas do último commit, incluindo se for uma reversão de commit
 - `git show HEAD~1` - exibe a informação detalhadas do commit original, não inclui o commit de reverção
+
+- `git remote -v` - exibe os repositórios remotos configurados
 
 #### Preparar arquivo para commit:
 - `git add arquivo` - prepara um arquivo específico alterado para commit
